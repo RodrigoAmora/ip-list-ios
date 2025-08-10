@@ -1,0 +1,6 @@
+framework module Pods_ip_list {
+  umbrella header "Pods-ip-list-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ip_list_ip_listUITests {
+  umbrella header "Pods-ip-list-ip-listUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
