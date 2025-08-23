@@ -21,5 +21,22 @@
 			</array>
 		</dict>
 	</dict>
+    
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>O aplicativo precisa de acesso à localização para identificar a rede Wi-Fi.</string>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>O aplicativo precisa de acesso à localização para identificar a rede Wi-Fi.</string>
+
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>O aplicativo precisa acessar a rede local para detectar dispositivos conectados.</string>
+
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_http._tcp</string>
+        <string>_printer._tcp</string>
+        <string>_airplay._tcp</string>
+    </array>
+
 </dict>
 </plist>
