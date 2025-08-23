@@ -7,9 +7,10 @@
 
 import Foundation
 
-class NetworkDevice {
+struct NetworkDevice {
     
-    var hotName: String?
+    var hostName: String?
+    var ipAddress: String?
     var isReachable: Bool?
     var macAddress: String?
     var typeDevice: TypeDevice?

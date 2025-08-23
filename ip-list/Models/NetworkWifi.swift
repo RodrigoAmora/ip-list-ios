@@ -7,13 +7,13 @@
 
 import Foundation
 
-class NetworkWifi {
-    var ssid: String = ""
-    var bssid: String?
-    var strength: Int? // em dBm
-    var frequency: Int? // em MHz
-    var linkSpeed: Int? // em Mbps
-    var networkId: Int?
-    var macAddress: String?
-    var ipAddress: Int?
+struct NetworkWifi {
+    let ssid: String?
+    let bssid: String?
+    let strength: Int?      // iOS não expõe -> pode ser nil
+    let frequency: Int?     // iOS não expõe -> pode ser nil
+    let linkSpeed: Int?     // iOS não expõe -> pode ser nil
+    let networkId: Int?     // iOS não expõe -> pode ser nil
+    let macAddress: String? // iOS não expõe -> nil ou "Não disponível"
+    let ipAddress: String?
 }

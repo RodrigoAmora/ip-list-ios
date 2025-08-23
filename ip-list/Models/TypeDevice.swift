@@ -8,5 +8,11 @@
 import Foundation
 
 enum TypeDevice: String, Decodable {
-    case SMARTPHONE,COMPUTER, PRINTER, SMART_TV, CONSOLE_GAME, IOT_DEVICE, UNKNOWN
+    case smartphone
+    case printer
+    case smartTV
+    case consoleGame
+    case computer
+    case iotDevice
+    case unknown
 }
